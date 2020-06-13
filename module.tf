@@ -35,7 +35,6 @@ data "aws_ami" "aws_linux" {
   }
 }
 
-
 # RESOURCES
 # Default VPC, it won't delete on destroy
 resource "aws_default_vpc" "default" {
